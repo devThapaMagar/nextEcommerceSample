@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <meta name="google-site-verification" content="_hIUkOPUZ0UG4zi-DMgcy_2rYPa0wmRuJ735APlA7Yc" />
+        <meta name="google-site-verification" content="p2uwWUVVnSU7UktV3DQ0SU7mXrfCjgbJ5uPteivBI00" />
       </Head>
 
       <main className={styles.main}>
