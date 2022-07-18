@@ -28,12 +28,18 @@ export default function Home() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
+            !function(e,t,i){e.thoughtmetricQueue=[],e.thoughtmetric=function(){e.thoughtmetricQueue.push(arguments)};var c=t.createElement("script");c.async=1,c.src="https://pixel.thoughtmetric.io/tmpixel.min.js?t="+864e5*Math.ceil(new Date/864e5);var n=t.getElementsByTagName("script")[0];n.parentNode.insertBefore(c,n)}(window,document); thoughtmetric("init","ID-897b85e987fed43b"); thoughtmetric("pageview");
+
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);
             }
             gtag('js', new Date());
             
             gtag('config', 'AW-10950125848');
+
+            thoughtmetric('identify', [customer identifier], {
+              email: [email]
+            })
             `,
           }}
         />
