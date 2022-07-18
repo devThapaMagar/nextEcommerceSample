@@ -37,9 +37,6 @@ export default function Home() {
             
             gtag('config', 'AW-10950125848');
 
-            thoughtmetric('identify', [customer identifier], {
-              email: [email]
-            })
             `,
           }}
         />
