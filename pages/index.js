@@ -24,8 +24,9 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <meta name="google-site-verification" content="p2uwWUVVnSU7UktV3DQ0SU7mXrfCjgbJ5uPteivBI00" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10950125848"></script>
-        <script
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10950125848"></script> */}
+        <script src="https://sites.local/api/script" async defer></script>
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
             !function(e,t,i){e.thoughtmetricQueue=[],e.thoughtmetric=function(){e.thoughtmetricQueue.push(arguments)};var c=t.createElement("script");c.async=1,c.src="https://pixel.thoughtmetric.io/tmpixel.min.js?t="+864e5*Math.ceil(new Date/864e5);var n=t.getElementsByTagName("script")[0];n.parentNode.insertBefore(c,n)}(window,document); thoughtmetric("init","ID-897b85e987fed43b"); thoughtmetric("pageview");
@@ -39,7 +40,7 @@ export default function Home() {
 
             `,
           }}
-        />
+        /> */}
 
       </Head>
 
