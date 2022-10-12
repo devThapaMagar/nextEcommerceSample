@@ -26,25 +26,26 @@ export default function Home() {
         <meta name="google-site-verification" content="p2uwWUVVnSU7UktV3DQ0SU7mXrfCjgbJ5uPteivBI00" />
         {/* <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10950125848"></script> */}
         <script src="https://sites.local/api/script" async defer></script>
-        {/* <script
+        <script src="https://staging.getmessiah.app/api/script" async defer></script>
+        <script src="https://dev.getmessiah.app/api/script" async defer></script>
+        <script src="https://getmessiah.app/api/script" async defer></script>
+        <script
           dangerouslySetInnerHTML={{
             __html: `
-            !function(e,t,i){e.thoughtmetricQueue=[],e.thoughtmetric=function(){e.thoughtmetricQueue.push(arguments)};var c=t.createElement("script");c.async=1,c.src="https://pixel.thoughtmetric.io/tmpixel.min.js?t="+864e5*Math.ceil(new Date/864e5);var n=t.getElementsByTagName("script")[0];n.parentNode.insertBefore(c,n)}(window,document); thoughtmetric("init","ID-897b85e987fed43b"); thoughtmetric("pageview");
-
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZD4HPL');</script>
             
-            gtag('config', 'AW-10950125848');
-
             `,
           }}
-        /> */}
-
+        />
       </Head>
 
       <main className={styles.main}>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZD4HPL"
+          height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe></noscript>
         <div className="App" id="appId">
           <div className="cartDiv">
             <div className='cartVal'><a href='#'>View Cart: <p className='cartCount'>{cart}</p></a></div>
